@@ -20,6 +20,11 @@ The ESPHome Dashboard can be installed as a Home Assistant add-on, which you can
 .. raw:: html
 
     <a href="https://my.home-assistant.io/redirect/supervisor_addon/?addon=a0d7b954_esphome" target="_blank"><img src="https://my.home-assistant.io/badges/supervisor_addon.svg" alt="Open your Home Assistant instance and show the dashboard of a Supervisor add-on." /></a>
+    
+.. note::
+
+If you using Home Assistant as a container (e.g. Docker) or core version then the Supervisor setup is not available. https://www.home-assistant.io/installation/ . In this case you can only use ESPHome devices if there already have been prepared to work with ESPHome in your environment (Initial Setup). You have to run ESPHome as a seperated installation to use the ESPhome Dashboard. If you are already using Home Assistant as a container within Docker, then you can use a container for EXPHome. (https://hub.docker.com/r/esphome/esphome) The installation is the same as for Home Assistant https://www.home-assistant.io/installation/alternative and ESPHome is available after the installation under the http(s)://<address/ip>:6052 If you see the ESPHome Dashboard you can go on with the installation guide and set up your first node.
+
 
 After that, wait a bit until it is installed (this can take a while). Click "Start" and then click "Open Web UI". If you see "502: Bad Gateway" it is currently starting, and you can refresh the page after a couple of seconds.
 
